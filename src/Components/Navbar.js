@@ -3,7 +3,7 @@ export default function navbar() {
     <div>
         <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid ">
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="collapse navbar-collapse" id="navbarNavAltMarkup" >
                     <div className="navbar-nav" >
                         <a className="nav-link active" aria-current="page" href="#" alt="Home">Home</a>
                         <a className="nav-link" href="#" alt="Profolio">Profolio</a>

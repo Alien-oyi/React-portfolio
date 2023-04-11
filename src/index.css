@@ -1,13 +1,46 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Concert One', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --navbar: #000814;
+  --home: #f4a261
+  --resume: #E9C46A;
+  --portfolio: #E76F51;
 }
+
+body {
+  background-color: #fefae0;
+}
+
+.navbar {
+  background-color: var(--navbar);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav a {
+  color: #c1121f;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .nav-btn {
+    display: none;
+  }
+}
+  
+
+

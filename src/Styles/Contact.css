@@ -1,0 +1,106 @@
+#reach-out {
+  background: #616574;
+}
+
+#reach-out h2 {
+  color: #204e53;
+}
+
+.contact h2 {
+  text-align: center;
+  color: #F2E3D5;
+}
+
+.github,
+.linkedin {
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin:15px;
+}
+
+.contact-form {
+  padding-right: 40%;
+}
+
+.contact-form button:hover {
+  background: #2cac61;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #303f7e;
+  color: #87991e;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 25px;
+  border-radius: 10px;
+
+
+
+}
+
+.contact-info>* {
+  flex: 1 1 100%;
+  margin: 15px;
+}
+
+
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+
+}
+
+.contact-info h3 {
+  color: #0E5259;
+  font-size: 32px;
+}
+
+#contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.contact-info a {
+  color: #0E5259;
+  display: inline;
+}
+
+.contact-info a:hover {
+  color: #ACF2E5;
+  transition: .5s ease;
+}

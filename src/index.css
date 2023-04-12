@@ -1,22 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Concert One', cursive;
+  box-sizing: border-box;  
 }
 
 :root {
   --navbar: #000814;
   --home: #f4a261
   --resume: #E9C46A;
-  --portfolio: #E76F51;
 }
 
-body {
-  background-color: #fefae0;
-}
+
 
 @media screen and (max-width: 1024px) {
   

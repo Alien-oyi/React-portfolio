@@ -1,11 +1,15 @@
-import React from 'react';
-
+import React,{useEffect} from 'react';
+import '../Styles/Navbar.css'
 
 
 function NavTabs({ currentPage, handlePageChange }) {
+  useEffect(() => {
+      document.title = currentPage;
+    }, [currentPage]);
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <div className="NavBar">
+    <span className="nav-logo">Jinmin Dai</span>
+      <div className="nav-items">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -13,8 +17,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Home
         </a>
-      </li>
-      <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange('Portfolio')}       
@@ -22,8 +24,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Portfolio
         </a>
-      </li>
-      <li className="nav-item">
         <a
           href="#blog"
           onClick={() => handlePageChange('Resume')}
@@ -31,8 +31,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
-      </li>
-      <li className="nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -40,8 +38,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </li>
-    </ul>
+      </div>
+    </div>
   );
 }
 

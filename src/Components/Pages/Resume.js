@@ -2,7 +2,7 @@ import React from "react";
 import { MdFoundation } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
 import { GrDocumentPerformance } from "react-icons/gr";
-import "../../Styles/Resume.css";
+import "../Styles/Resume.css";
 
 function Resume() {
   return (

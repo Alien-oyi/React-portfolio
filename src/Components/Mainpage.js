@@ -4,6 +4,8 @@ import Home from './Pages/Home';
 import Resume from './Pages/Resume';
 import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
+import Header from './Pages/Header';
+import Footer from './Pages/Footer';
 
 export default function Mainpage() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -24,9 +26,17 @@ export default function Mainpage() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>      
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
-    </div>
+    <>
+      <div>
+        <title>Welcome | {currentPage} </title>
+      </div>
+      ;
+      <Header
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+      ></Header>
+      <main>{renderPage()}</main>
+      <Footer></Footer>
+    </>
   );
 }

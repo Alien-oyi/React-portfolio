@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../Styles/Contact.css';
+import '../Styles/Contact.css';
 
 import { validateEmail } from '../../utils/helpers';
 

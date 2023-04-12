@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react';
-import '../Styles/Navbar.css'
+import './Styles/Navbar.css'
 
 
 function NavTabs({ currentPage, handlePageChange }) {

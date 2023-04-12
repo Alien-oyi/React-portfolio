@@ -12,6 +12,10 @@
   color: #F2E3D5;
 }
 
+#reach-out h2:hover {
+  color: #ACF2E5;
+}
+
 .github,
 .linkedin {
   text-align: center;

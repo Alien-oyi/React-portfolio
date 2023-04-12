@@ -1,12 +1,12 @@
 import './App.css';
-import Navbar from './Components/Navbar';
+import Mainpage from './Components/Mainpage';
 import React from 'react';
 
 
 function App() {
   return (
     <React.Fragment>
-      <Navbar />
+      <Mainpage />
     </React.Fragment>
   );
 }

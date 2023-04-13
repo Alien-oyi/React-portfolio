@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer>
       <h2>Made by Jinmin</h2>
-      <p>
+      
         <ul>
           <a href="https://github.com/Alien-oyi">
             <li className="logo">
@@ -19,7 +19,7 @@ function Footer() {
             </li>
           </a>
         </ul>
-      </p>
+    
     </footer>
   );
 }

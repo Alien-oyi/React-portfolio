@@ -5,7 +5,9 @@
     align-items: center;
     background-color: #000814;
 }
-
+.nav-items a {
+    flex-direction: row;
+}
 .NavBar .nav-logo {
     font-weight: 700;
     font-size:20px;

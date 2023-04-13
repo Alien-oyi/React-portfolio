@@ -9,7 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="NavBar">
     <span className="nav-logo">Jinmin Dai</span>
-      <div className="nav-items" style={{display: "flex", flexDirection:"row"}}>
+      <div className="nav-items" >
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}

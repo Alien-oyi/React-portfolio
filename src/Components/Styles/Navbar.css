@@ -5,7 +5,8 @@
     align-items: center;
     background-color: #000814;
 }
-.nav-items a {
+.nav-items {
+    display:flex; 
     flex-direction: row;
 }
 .NavBar .nav-logo {

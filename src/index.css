@@ -4,15 +4,7 @@
   box-sizing: border-box;  
 }
 
-:root {
-  --navbar: #000814;
-  --home: #f4a261
-  --resume: #E9C46A;
-}
-
-
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   
 }
   

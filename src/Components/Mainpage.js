@@ -30,13 +30,12 @@ export default function Mainpage() {
       <div>
         <title>Welcome | {currentPage} </title>
       </div>
-      ;
       <Header
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       ></Header>
       <main>{renderPage()}</main>
-      <Footer></Footer>
+      <Footer>Made by Jinmin</Footer>
     </>
   );
 }

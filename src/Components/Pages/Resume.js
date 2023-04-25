@@ -1,8 +1,7 @@
 import React from "react";
 import { MdFoundation } from "react-icons/md";
-import { GrTechnology } from "react-icons/gr";
-import { GrDocumentPerformance } from "react-icons/gr";
 import { BsCloudDownload } from "react-icons/bs";
+import { IconContext } from "react-icons";
 import myResume from "../../Assets/Jinmin_Dai_Resume20.pdf";
 import "../Styles/Resume.css";
 
@@ -17,7 +16,11 @@ function Resume() {
           <div className="download-info">
             <div className="download-text">
               <a href={myResume} className="download-logo" download>
+                <IconContext.Provider value={{color:"#12c0a0", className: "download-icon" }}>
+                <div>
                 <BsCloudDownload />
+                </div>
+                </IconContext.Provider>
               </a>
               <p>
                 Please feel free to check out my list of Developer
@@ -33,7 +36,11 @@ function Resume() {
           <p className="column-text">
             <ul>
               <li className="logo">
+                <IconContext.Provider value={{color:"#12c0a0", className: "download-icon" }}>
+                <div>
                 <MdFoundation />
+                </div>
+                </IconContext.Provider>
               </li>
               <li>HTML5</li>
               <li>CSS</li>
@@ -51,7 +58,11 @@ function Resume() {
           <p className="column-text">
             <ul>
               <li className="logo">
-                <GrTechnology />
+                <IconContext.Provider value={{color:"#12c0a0", className: "download-icon" }}>
+                <div>
+                <MdFoundation />
+                </div>
+                </IconContext.Provider>
               </li>
               <li>Node.Js</li>
               <li>Express.js</li>
@@ -68,7 +79,11 @@ function Resume() {
           <p className="column-text">
             <ul>
               <li className="logo">
-                <GrDocumentPerformance />
+                <IconContext.Provider value={{color:"#12c0a0", className: "download-icon" }}>
+                <div>
+                <MdFoundation />
+                </div>
+                </IconContext.Provider>
               </li>
               <li>Progressive Web Applications (PWA)</li>
               <li>Mongoose</li>

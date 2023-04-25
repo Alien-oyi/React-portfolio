@@ -18,7 +18,7 @@ export default function Home() {
 
             Professionally, I am a full stack flex developer with the skills and experience to create professional and functional websites to real-world job standards. I am committed to delivering quality work and continuously enhancing my skills to stay ahead of the curve in the rapidly evolving tech industry. I am a hard worker and always eager to take on new challenges and learn new things.
 
-            Overall, I am an adventurous individual who loves exploring new experiences and connecting with people from all walks of life. I believe that pursuing your passions and being open to new opportunities is the key to a fulfilling life. I am excited to see what the future holds and I look forward to working with you!
+            Overall, I am a committed job seeker with a history of meeting company needs with consistent and organized practices. Skilled in working under pressure and adapting to new situations and challenges to best enhance the organizational brand.
           </p>
         </div>
       </div>

@@ -2,6 +2,8 @@ import React from "react";
 import { MdFoundation } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
 import { GrDocumentPerformance } from "react-icons/gr";
+import { BsCloudDownload } from "react-icons/bs";
+import myResume from "../../Assets/Jinmin_Dai_Resume20.pdf";
 import "../Styles/Resume.css";
 
 function Resume() {
@@ -10,7 +12,20 @@ function Resume() {
       <section id="welcome-section" className="download-intro">
         <div className="flex-row">
           <h2 className="section-title primary-border">My Resume</h2>
-        </div>    
+        </div>
+        <div className="flex-row">
+          <div className="download-info">
+            <div className="download-text">
+              <a href={myResume} className="download-logo" download>
+                <BsCloudDownload />
+              </a>
+              <p>
+                Please feel free to check out my list of Developer
+                Proficiencies!
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="home-page-body" className="resume-body">
         <div className="article column1">

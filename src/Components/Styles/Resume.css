@@ -2,6 +2,15 @@ h2 {
   text-align: center;
 }
 
+.download-intro p {
+  line-height: 1.7;
+  color: #0E5259;
+  width: 95%;
+  font-size: 30px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
 .resume-body {
   display: flex;
   justify-content: space-between;
@@ -25,25 +34,64 @@ h2 {
   margin: 30px 0 0 60px;
 }
 
+.column3 {
+  margin-right: 0%;
+}
+
+
+
 .article {
   margin: 10px;
   margin-bottom: 1em;
-  background-color: #101107;
+  background-color: #B4D9CB;
 }
 
 
 .resume-body img {
+
   height: auto;
 }
 
+.download-text {
+  height: auto;
+  margin-left: 20%; 
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.download-logo {
+  cursor: pointer;
+  list-style: none;
+  font-size: 40px;
+  color: #0E5259;
+  display: inline-block;
+}
+
+.download-logo:hover {
+  color: #328C83;
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+
+
+.download-info {
+  flex: 3 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
 .column-title {
-  color: #12c0a0;
+  color: #285950;
   font-size: 25px;
   font-weight: bold;
 }
 
 .column-text {
-  color: #12c0a0;
+  color: #285950;
   font-size: 20px;
   padding: 5px;
 
@@ -52,4 +100,4 @@ h2 {
 
 .column-text ul li {
   list-style: none;
-}
+} 

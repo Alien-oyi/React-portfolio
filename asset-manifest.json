@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ac887c1c.css",
-    "main.js": "/react-portfolio/static/js/main.ca7dd161.js",
+    "main.css": "/react-portfolio/static/css/main.a1fcb7bb.css",
+    "main.js": "/react-portfolio/static/js/main.cb1caac8.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/hd.jpg": "/react-portfolio/static/media/hd.3985cdb2f2593ff7761b.jpg",
     "static/media/gamebox.png": "/react-portfolio/static/media/gamebox.e61a2e31b1af99961350.png",
@@ -10,12 +10,12 @@
     "static/media/HistorWe.png": "/react-portfolio/static/media/HistorWe.d07c0b0ab517efb719bf.png",
     "static/media/Jinmin_Dai_Resume20.pdf": "/react-portfolio/static/media/Jinmin_Dai_Resume20.22c4b9c39e0e70b9cbdd.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.ac887c1c.css.map": "/react-portfolio/static/css/main.ac887c1c.css.map",
-    "main.ca7dd161.js.map": "/react-portfolio/static/js/main.ca7dd161.js.map",
+    "main.a1fcb7bb.css.map": "/react-portfolio/static/css/main.a1fcb7bb.css.map",
+    "main.cb1caac8.js.map": "/react-portfolio/static/js/main.cb1caac8.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac887c1c.css",
-    "static/js/main.ca7dd161.js"
+    "static/css/main.a1fcb7bb.css",
+    "static/js/main.cb1caac8.js"
   ]
 }

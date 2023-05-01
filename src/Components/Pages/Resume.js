@@ -2,7 +2,7 @@ import React from "react";
 import { MdFoundation } from "react-icons/md";
 import { BsCloudDownload } from "react-icons/bs";
 import { IconContext } from "react-icons";
-import myResume from "../../Assets/Jinmin_Dai_Resume20.pdf";
+import myResume from "../../Assets/jinmin_dai_resume101.pdf";
 import "../Styles/Resume.css";
 
 function Resume() {
@@ -23,8 +23,7 @@ function Resume() {
                 </IconContext.Provider>
               </a>
               <p>
-                Please feel free to check out my list of Developer
-                Proficiencies!
+                Please feel free to download my Resume😃
               </p>
             </div>
           </div>

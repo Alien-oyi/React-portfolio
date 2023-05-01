@@ -22,16 +22,41 @@ function Contact() {
     }
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    if (!validateEmail(email)) {
-        alert("Please enter a valid email address");
-        return;
-    };
+const handleFormSubmit = async (e) => {
+  e.preventDefault();
+  if (!validateEmail(email)) {
+    alert("Please enter a valid email address");
+    return;
+  };
+
+  try {
+    const response = await fetch('/api/contact', {
+      
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: userName,
+        email: email,
+        message: message,
+      }),
+    });
+    console.log(response.body);
+
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+
+    alert('Your message has been sent!');
     setUserName("");
     setMessage("");
     setEmail("");
-    };
+  } catch (error) {
+    console.error('There was a problem sending the message:', error);
+    alert('There was a problem sending the message. Please try again later.');
+  }
+  };
 
   return (
     <section id="reach-out" className="contact">

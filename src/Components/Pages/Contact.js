@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../Styles/Contact.css';
+import axios from 'axios';
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -30,24 +31,11 @@ const handleFormSubmit = async (e) => {
   };
 
   try {
-    const response = await fetch('/api/contact', {
-      
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        name: userName,
-        email: email,
-        message: message,
-      }),
+      await axios.post('http://localhost:3001', {
+      userName,
+      email, 
+      message  
     });
-    console.log(response.body);
-
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-
     alert('Your message has been sent!');
     setUserName("");
     setMessage("");

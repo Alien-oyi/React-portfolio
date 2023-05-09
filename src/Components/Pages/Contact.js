@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../Styles/Contact.css';
+import axios from 'axios';
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -22,16 +23,28 @@ function Contact() {
     }
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    if (!validateEmail(email)) {
-        alert("Please enter a valid email address");
-        return;
-    };
+const handleFormSubmit = async (e) => {
+  e.preventDefault();
+  if (!validateEmail(email)) {
+    alert("Please enter a valid email address");
+    return;
+  };
+
+  try {
+      await axios.post('http://localhost:3001', {
+      userName,
+      email, 
+      message  
+    });
+    alert('Your message has been sent!');
     setUserName("");
     setMessage("");
     setEmail("");
-    };
+  } catch (error) {
+    console.error('There was a problem sending the message:', error);
+    alert('There was a problem sending the message. Please try again later.');
+  }
+  };
 
   return (
     <section id="reach-out" className="contact">
